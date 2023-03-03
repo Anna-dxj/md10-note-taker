@@ -1,10 +1,14 @@
 # Note Taker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   ## Description
+  
+  This application is a note-taker app that allows a user to title a note and write basic body text to it. Upon opening the app, the user is presented with a basic page with a button to enter the note taking application. If a user inputs an otherwised undefined endpoing, they will be rerouted to this page. This page should look like the screenshot: ![Home page](./assets/imgs/screenshot-1.png)
+  
+  The notes page is where a user will be able to enter note information. This app uses an external database to store these notes, and uses API routes to allow a user to fetch a previously written note, save notes, and to delete a note. If working properly, All previously-written notes should appear on the right-hand column, and new notes or a requested, previously written note will be dispalyed on the left side, for a user to either add text or to read it. This page should look like the following screenshot: ![Notes page](./assets/imgs/screenshot-2.png)
 
-    This application is a note-taker app that allows a user to title a note and write basic body text to it. Upon opening the app, the user is presented with a basic page with a button to enter the note taking application. If a user inputs an otherwised undefined endpoing, they will be rerouted to this page. The notes page is where a user will be able to enter note information. This app uses an external database to store these notes, and uses API routes to allow a user to fetch a previously written note, save notes, and to delete a note. If working properly, All previously-written notes should appear on the right-hand column, and new notes or a requested, previously written note will be dispalyed on the left side, for a user to either add text or to read it. 
-
-    This application allowed me as a developer to practice writing server-side code using express, and to understand the back-end of fetch-requests. 
+  This application uses Heroku for deployment.
+  
+  This application allowed me as a developer to practice writing server-side code using express, and to understand the back-end of fetch-requests. 
 
   ---
   ## Table of Contents 
