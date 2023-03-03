@@ -23,7 +23,7 @@
 
   ## Installation
 
-  For functional use, there are no installation requirements. To see this note in action, please go to [This link](). The user should be presented with the home page
+  For functional use, there are no installation requirements. To see this note in action, please go to [this link](https://warm-stream-07044.herokuapp.com/). The user should be presented with the home page
 
   For developmental use, upon cloning the repo, a developer should be sure to enter the command 'npm i' in the root of the directory to install npm packages express and uuid. 
 
